@@ -58,6 +58,58 @@ a {
     color: var(--main-bg-color)
 }
 
+
+/****** Header ***********/
+
+.hautdepage {
+    display: flex;
+    
+}
+.navhautdepage {
+    display: flex;
+    gap: 5rem;
+    margin-left: auto;
+    margin-top: 16px;
+ 
+}
+.navheberg {
+    width: 113px;
+    height: 19px;
+    top:16px;
+    padding-top: 20px;
+   
+}
+.navactivit {
+    width: 63px;
+    height: 19px;
+    left: 181px;
+    top: 16px;
+    padding-top: 20px;
+    
+}
+.navheberg:hover {
+    
+    color: var(--main-color);
+    border-top: solid var(--main-color);
+}
+
+.navactivit:hover {
+    
+    color: var(--main-color);
+    border-top: solid var(--main-color);
+    
+}
+.logohautdepage { 
+    margin-top: 30px;
+   
+}
+
+/****** InfoRecherches ********/
+.infoRecherches {
+    margin-top: 35px;
+}
+
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
