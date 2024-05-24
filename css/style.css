@@ -67,15 +67,17 @@ a {
 }
 .navhautdepage {
     display: flex;
-    gap: 5rem;
+    gap: 80px;
     margin-left: auto;
     margin-top: 16px;
+    font-size: 1rem;
+    font-weight: 400;
  
 }
 .navheberg {
     width: 113px;
     height: 19px;
-    top:16px;
+    top: 16px;
     padding-top: 20px;
    
 }
@@ -107,6 +109,12 @@ a {
 /****** InfoRecherches ********/
 .infoRecherches {
     margin-top: 35px;
+    width: 130%;
+}
+
+.paragrapheun {
+    font-size: 1rem;
+    font-weight: 400;
 }
 
 
