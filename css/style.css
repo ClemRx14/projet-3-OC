@@ -187,9 +187,13 @@ a {
     font-size: 16px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px ;
-    
+    display: block;
  }
 
+.buttonrecherchemobil {
+    display: none;
+    background-color: var(--main-color);
+}
  
 
 /****** Hebergements And Populaires ***********/
