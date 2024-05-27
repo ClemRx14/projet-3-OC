@@ -63,8 +63,10 @@ a {
 
 .hautdepage {
     display: flex;
+    width: 100%;
     
 }
+
 .navhautdepage {
     display: flex;
     gap: 80px;
@@ -72,17 +74,18 @@ a {
     margin-top: 16px;
     font-size: 1rem;
     font-weight: 400;
- 
+    width: 23.8%;
+    justify-content: flex-end;
 }
 .navheberg {
-    width: 113px;
+    width: 32.84%;
     height: 19px;
     top: 16px;
     padding-top: 20px;
    
 }
 .navactivit {
-    width: 63px;
+    width: 18.3%;
     height: 19px;
     left: 181px;
     top: 16px;
@@ -103,13 +106,14 @@ a {
 }
 .logohautdepage { 
     margin-top: 30px;
+    width: 11.1%;
    
 }
 
 /****** InfoRecherches ********/
 .infoRecherches {
     margin-top: 35px;
-    width: 130%;
+    width: 93%;
 }
 
 .paragrapheun {
@@ -117,6 +121,76 @@ a {
     font-weight: 400;
 }
 
+.searchbar{
+    width: 26%;
+    height: 49px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+}
+
+.buttonLoca {
+    width: 8%;
+    background-color: #d9d9d9;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   border-color: transparent;
+   border-top-left-radius: 10px ;
+   border-bottom-left-radius: 10px;
+}
+
+.logoLoca{
+    width: 100%;
+    
+ }
+ 
+ .champderecherche {
+       display: flex;
+       align-items: center;
+      text-align: center;
+      width: 67%;
+      border: none;
+      
+ }
+ 
+ .champderechercheVille {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-size: 16px;
+    
+ }
+ .champderechercheVille::placeholder { 
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    
+ }
+
+ .buttonrecherche {
+    display: flex;
+    width: 25%;
+    padding: 1px;
+    border-color: transparent;
+    
+ }
+
+ .button-centre {
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: var(--main-color);
+    font-weight: bold;
+    border-color: transparent;
+    font-size: 16px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px ;
+    
+ }
+
+ 
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
