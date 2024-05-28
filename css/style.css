@@ -81,15 +81,17 @@ a {
 .navheberg {
     width: 32.84%;
     padding-top: 20px;
-    box-sizing: border-box
+    box-sizing: border-box;
+    padding-right: 110px;
+    
     
     
 }
 .navactivit {
     width: 18.3%;
     padding-top: 20px;
-    box-sizing: border-box
-    
+    box-sizing: border-box;
+    padding-right: 63px;
     
     
 }
@@ -98,7 +100,8 @@ a {
     color: var(--main-color);
     border-top: solid var(--main-color);
     box-sizing: border-box;
-    
+  
+   
    
     
 }
@@ -108,6 +111,7 @@ a {
     color: var(--main-color);
     border-top: solid var(--main-color);
     box-sizing: border-box;
+   
     
     
 }
@@ -326,7 +330,7 @@ a {
     .champderecherche {
         width: 90%;
     }    
-
+    
 
 }
 
