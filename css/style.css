@@ -64,7 +64,7 @@ a {
 .hautdepage {
     display: flex;
     width: 100%;
-    
+   
 }
 
 .navhautdepage {
@@ -76,32 +76,39 @@ a {
     font-weight: 400;
     width: 23.8%;
     justify-content: flex-end;
+    
 }
 .navheberg {
     width: 32.84%;
-    height: 19px;
-    top: 16px;
     padding-top: 20px;
-   
+    box-sizing: border-box
+    
+    
 }
 .navactivit {
     width: 18.3%;
-    height: 19px;
-    left: 181px;
-    top: 16px;
     padding-top: 20px;
+    box-sizing: border-box
+    
+    
     
 }
 .navheberg:hover {
     
     color: var(--main-color);
     border-top: solid var(--main-color);
+    box-sizing: border-box;
+    
+   
+    
 }
 
 .navactivit:hover {
     
     color: var(--main-color);
     border-top: solid var(--main-color);
+    box-sizing: border-box;
+    
     
 }
 .logohautdepage { 
@@ -127,6 +134,10 @@ a {
     display: flex;
     flex-direction: row;
     margin-top: 35px;
+   box-sizing: border-box;
+ 
+   
+
 }
 
 .buttonLoca {
@@ -151,6 +162,8 @@ a {
       text-align: center;
       width: 67%;
       border: none;
+   
+      
       
  }
  
@@ -160,6 +173,9 @@ a {
     outline: none;
     font-weight: bold;
     font-size: 16px;
+    box-sizing: border-box;
+    
+    
     
  }
  .champderechercheVille::placeholder { 
@@ -174,6 +190,7 @@ a {
     width: 25%;
     padding: 1px;
     border-color: transparent;
+   
     
  }
 
@@ -297,6 +314,20 @@ a {
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
+
+              
+       
+    .buttonLoca, .champderecherche, .buttonrecherche {        
+        flex: none;  
+    } 
+    .buttonLoca { 
+        width: 10%;     
+    }            
+    .champderecherche {
+        width: 90%;
+    }    
+
+
 }
 
 /* Small devices (phones, less than 768px) */
