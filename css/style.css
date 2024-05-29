@@ -237,12 +237,14 @@ a {
     background-color: white;
     padding: 4px, 19px, 4px, 19px;
     height: 50px;
-    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
 }
 
 button i {
     color: var(--main-color);
-    margin: 8px;
     
 }
 
