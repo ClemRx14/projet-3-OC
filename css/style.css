@@ -84,8 +84,6 @@ a {
     box-sizing: border-box;
     padding-right: 110px;
     
-    
-    
 }
 .navactivit {
     width: 18.3%;
@@ -101,9 +99,6 @@ a {
     border-top: solid var(--main-color);
     box-sizing: border-box;
   
-   
-   
-    
 }
 
 .navactivit:hover {
@@ -111,8 +106,6 @@ a {
     color: var(--main-color);
     border-top: solid var(--main-color);
     box-sizing: border-box;
-   
-    
     
 }
 .logohautdepage { 
@@ -140,8 +133,6 @@ a {
     margin-top: 35px;
    box-sizing: border-box;
  
-   
-
 }
 
 .buttonLoca {
@@ -158,6 +149,7 @@ a {
 .logoLoca{
     width: 100%;
     
+    
  }
  
  .champderecherche {
@@ -166,11 +158,11 @@ a {
       text-align: center;
       width: 67%;
       border: none;
+      
    
       
-      
  }
- 
+ /* Voir pour enlever le width car le champ de recherche est niquel mais le logo disparait en version desk? ou alors c'est le champ de recherche qui retrecie selon la taille en desk alors qu'il doit rester fixe */
  .champderechercheVille {
     width: 100%;
     border: none;
@@ -178,7 +170,6 @@ a {
     font-weight: bold;
     font-size: 16px;
     box-sizing: border-box;
-    
     
     
  }
@@ -215,8 +206,66 @@ a {
     display: none;
     background-color: var(--main-color);
 }
- 
 
+
+ /****** Filtres ********/
+ 
+.partiefiltres {
+    margin-top: 35px;
+    height: 50px;
+    display: flex;
+    width: 56%;
+    gap: 10px;
+    margin-left: 15px;
+    
+  
+    
+}
+.partiefiltres p {
+    
+    font-weight: 700;
+    font-size: 18px;
+    width: 7.12%;
+    
+}
+.partiefiltres button {
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: 17px ;
+    outline: none;
+    border: 2px solid #d9d9d9;
+    background-color: white;
+    padding: 4px, 19px, 4px, 19px;
+    height: 50px;
+    
+}
+
+button i {
+    color: var(--main-color);
+    margin: 8px;
+    
+}
+
+.button1 {
+    width: 28.8%;
+
+}
+
+.button2 {
+    width: 17.6%;
+
+}
+
+.button3 {
+    width: 22.4%;
+
+}
+
+.button4 {
+    width: 22%;
+
+
+}
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
@@ -330,7 +379,20 @@ a {
     .champderecherche {
         width: 90%;
     }    
+
+
+
+
     
+    .partiefiltres {
+        width: 65%;
+}
+
+.partiefiltres p {
+    display: block;
+    margin-bottom: 10px;
+    
+}
 
 }
 
