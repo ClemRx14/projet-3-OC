@@ -240,40 +240,26 @@ a {
     outline: none;
     border: 2px solid #d9d9d9;
     background-color: white;
-    padding: 4px, 19px, 4px, 19px;
+    padding: 4px 19px 4px 19px;
     height: 50px;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    white-space: nowrap;
+    width: auto;
     
-  
 }
 
 button i {
-    color: var(--main-color);
+    color: var(--main-color); 
+    margin-right: 5px;
     
 }
 
 .button1 {
-    width: 28.8%;
-
+    margin-left: 15px;
 }
 
-.button2 {
-    width: 17.6%;
-
-}
-
-.button3 {
-    width: 22.4%;
-
-}
-
-.button4 {
-    width: 22%;
-
-
-}
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
