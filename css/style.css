@@ -187,10 +187,12 @@ a {
  .buttonrecherche {
     display: flex;
     width: 26.8%;
-    padding: 1px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px ;
+    background-color: var(--main-color);
     border-color: transparent;
-    
-    
+    font-size: 16px;
+
  }
 
  .button-centre {
@@ -201,8 +203,6 @@ a {
     font-weight: bold;
     border-color: transparent;
     font-size: 16px;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px ;
     display: block;
     
  }
@@ -232,7 +232,10 @@ a {
     font-size: 18px;
     width: 7.12%;
     
+    
 }
+
+/* Padding légerement modifié et réduit pour les cotés pour éviter le chevauchement avec le texte filtre mais aussi la sortie du boutton de l'écran quand on est juste avant le passage en mode tablette en largeur. */
 .partiefiltres button {
     border-radius: 25px;
     font-weight: 700;
@@ -240,7 +243,7 @@ a {
     outline: none;
     border: 2px solid #d9d9d9;
     background-color: white;
-    padding: 4px 19px 4px 19px;
+    padding: 4px 15px 4px 15px;
     height: 50px;
     display: flex;
     align-items: center;
@@ -250,14 +253,23 @@ a {
     
 }
 
+
+
+
+.partiefiltres button:hover {
+
+    background-color: var(--filter-bg-color);
+}
+
 button i {
     color: var(--main-color); 
     margin-right: 5px;
     
 }
 
+/* De base le margin est à 15 mais initiative à 20 pour éviter le chevauchement sur le texte "filtres" quand on réduit la largeur de l'écran avant de passer au mode tablette. */
 .button1 {
-    margin-left: 15px;
+    margin-left: 20px;
 }
 
 /****** Hebergements And Populaires ***********/
@@ -371,8 +383,9 @@ button i {
         width: 10%;     
     }            
     .champderecherche {
-        width: 90%;
+        width: 85%;
     }    
+    
 
 
 
@@ -380,15 +393,13 @@ button i {
     
     .partiefiltres {
         width: 65%;
+       
+        
 }
 
-.partiefiltres p {
-    display: block;
-    margin-bottom: 10px;
-    
-}
 
-}
+
+
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
