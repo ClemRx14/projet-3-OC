@@ -223,8 +223,6 @@ a {
     gap: 10px;
     margin-left: 8px;
     
-  
-    
 }
 .partiefiltres p {
     
@@ -232,6 +230,12 @@ a {
     font-size: 18px;
     width: 7.12%;
     
+    
+}
+
+.containerbutton {
+    display: flex;
+    gap: 10px;
     
 }
 
@@ -245,15 +249,11 @@ a {
     background-color: white;
     padding: 4px 15px 4px 15px;
     height: 50px;
-    display: flex;
     align-items: center;
     justify-content: space-around;
     white-space: nowrap;
-    width: auto;
     
 }
-
-
 
 
 .partiefiltres button:hover {
@@ -263,13 +263,33 @@ a {
 
 button i {
     color: var(--main-color); 
-    margin-right: 5px;
+    padding-right: 5px;
     
 }
 
 /* De base le margin est à 15 mais initiative à 20 pour éviter le chevauchement sur le texte "filtres" quand on réduit la largeur de l'écran avant de passer au mode tablette. */
 .button1 {
     margin-left: 20px;
+}
+
+.infosurville {
+    margin-top: 35px;
+    margin-left: 8px;
+    display: flex;
+    align-items: center;
+    
+
+}
+.logoinfoville {
+    border: 2px solid #d9d9d9;
+    border-radius: 50%;
+    margin-right: 10px;
+    font-size: 1rem;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /****** Hebergements And Populaires ***********/
@@ -380,21 +400,26 @@ button i {
         flex: none;  
     } 
     .buttonLoca { 
-        width: 10%;     
+        width: 15%;     
     }            
     .champderecherche {
         width: 85%;
     }    
     
-
-
-
-
-    
     .partiefiltres {
         width: 65%;
+       display: block;
+       margin-bottom: 70px;
        
         
+}
+.infosurville {
+    margin-left: 30px;
+}
+
+
+
+
 }
 
 
