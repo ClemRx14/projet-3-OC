@@ -393,7 +393,9 @@ button i {
         font-size: 13px;
     }
 
-              
+    .logohautdepage {
+        width: 5.9%;
+    }
        
     .buttonLoca, .champderecherche, .buttonrecherche {        
         flex: none;  
