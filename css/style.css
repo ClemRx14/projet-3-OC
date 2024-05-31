@@ -83,6 +83,7 @@ a {
     padding-top: 20px;
     box-sizing: border-box;
     padding-right: 110px;
+    border-top: solid transparent;
     
 }
 .navactivit {
@@ -90,6 +91,7 @@ a {
     padding-top: 20px;
     box-sizing: border-box;
     padding-right: 63px;
+    border-top: solid transparent;
     
     
 }
@@ -405,9 +407,7 @@ button i {
     .buttonLoca, .champderecherche, .buttonrecherche {        
         flex: none;  
     } 
-    .buttonLoca { 
-        width: 15%;     
-    }            
+           
     .champderecherche {
         width: 85%;
     }    
@@ -420,9 +420,11 @@ button i {
        
         
 }
-.infosurville {
-    margin-left: 30px;
+
+.button1 {
+    margin-left: 0px;
 }
+
 
 
 
