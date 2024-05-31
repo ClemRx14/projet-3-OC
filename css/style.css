@@ -147,8 +147,8 @@ a {
    border-bottom-left-radius: 15px;
 }
 
-.logoLoca{
-    width: 50%;
+.buttonLoca i {
+    color: black;
     
     
  }
@@ -191,6 +191,8 @@ a {
     background-color: var(--main-color);
     border-color: transparent;
     font-size: 16px;
+    text-align: center;
+    align-items: center;
 
  }
 
@@ -206,9 +208,13 @@ a {
     
  }
 
-.buttonrecherchemobil {
-    display: none;
+.buttonrecherche i {
+    color: #d9d9d9;
     background-color: var(--main-color);
+    display: none;
+    align-items: center;
+    text-align: center;
+    
 }
 
 
@@ -216,7 +222,6 @@ a {
  
 .partiefiltres {
     margin-top: 35px;
-    height: 50px;
     display: flex;
     width: 56%;
     gap: 10px;
@@ -247,10 +252,10 @@ a {
     border: 2px solid #d9d9d9;
     background-color: white;
     padding: 4px 15px 4px 15px;
-    height: 50px;
     align-items: center;
     justify-content: space-around;
     white-space: nowrap;
+    height: 50px;
     
 }
 
@@ -410,7 +415,8 @@ button i {
     .partiefiltres {
         width: 65%;
        display: block;
-       margin-bottom: 70px;
+       margin-bottom: 35px;
+       
        
         
 }
@@ -429,5 +435,16 @@ button i {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    /* ... */
+    /* ... Test barre de recherche mobile */
+    .button-centre {
+        display: none;
+    }
+
+    .buttonrecherche i {
+        display: block;
+       
+    }
+
+
+
 }
