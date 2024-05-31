@@ -400,10 +400,14 @@ button i {
         font-size: 13px;
     }
 
+
+/********* Nav tablette ********/
     .logohautdepage {
         width: 5.9%;
     }
-       
+
+
+       /********* Barre de recherche **********/
     .buttonLoca, .champderecherche, .buttonrecherche {        
         flex: none;  
     } 
@@ -411,7 +415,9 @@ button i {
     .champderecherche {
         width: 85%;
     }    
+
     
+    /*******Filtres *******/
     .partiefiltres {
         width: 65%;
        display: block;
@@ -437,15 +443,20 @@ button i {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    /* ... Test barre de recherche mobile */
+
+
+
+    /*******... Test barre de recherche mobile *********/
     .button-centre {
         display: none;
+        
     }
 
     .buttonrecherche i {
         display: block;
-       
+        
     }
+ 
 
 
 
