@@ -332,8 +332,6 @@ button i {
     justify-content: center;
     gap: 40px;
     
-    
-
 
 }
 
@@ -345,20 +343,13 @@ button i {
 
 }
 
-/****** Voir pourquoi même en attribuant la width, les cards s'agrandissent à cause des h3 */
-.contenucarte {
-
-    
-}
-
+/****** Initiative de la height pour éviter le débordement de texte quand on approche le breakpoint ******/
 
 .hebergementscarte1 .card, .hebergementscarte2 .card  {
         margin-top: 33px;
         box-sizing: border-box;
-        
-       
-        
-  
+        height: 260px;
+
 }
 
 
@@ -374,18 +365,22 @@ button i {
 
 .hebergementscarte1 .card-subtitle, .hebergementscarte2 .card-subtitle  {
     margin: 0;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+   
   
 }
 
 .hebergementscarte1 .card-title, .hebergementscarte2 .card-title  {
     margin: 0;
-    padding-top: 10px;
+    margin-top: 10px;
+    
+    
  
 }
 .hebergementscarte1 .card-rating, .hebergementscarte2 .card-rating {
     margin-bottom: 5px;
+    margin-top: 10px;
 }
 
 .afficherplus {
