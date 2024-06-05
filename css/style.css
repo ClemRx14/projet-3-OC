@@ -364,7 +364,7 @@ button i {
 }
 
 .hebergementscarte1 .card-subtitle, .hebergementscarte2 .card-subtitle  {
-    margin: 0;
+    
     margin-bottom: 10px;
     margin-top: 10px;
    
@@ -372,7 +372,7 @@ button i {
 }
 
 .hebergementscarte1 .card-title, .hebergementscarte2 .card-title  {
-    margin: 0;
+    
     margin-top: 10px;
     
     
@@ -381,6 +381,7 @@ button i {
 .hebergementscarte1 .card-rating, .hebergementscarte2 .card-rating {
     margin-bottom: 5px;
     margin-top: 10px;
+    
 }
 
 .afficherplus {
