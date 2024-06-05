@@ -332,20 +332,27 @@ button i {
     justify-content: center;
     gap: 40px;
     
+    
 
 
 }
+
 
 .hebergementscarte1 a, .hebergementscarte2 a {
     width: 30%;
+    
 
 
 }
+
+/****** Voir pourquoi même en attribuant la width, les cards s'agrandissent à cause des h3 */
+
 
 
 .hebergementscarte1 .card, .hebergementscarte2 .card  {
         margin-top: 33px;
         box-sizing: border-box;
+        
        
         
   
@@ -362,7 +369,27 @@ button i {
 
 }
 
+.hebergementscarte1 .card-subtitle, .hebergementscarte2 .card-subtitle  {
+    margin: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  
+}
 
+.hebergementscarte1 .card-title, .hebergementscarte2 .card-title  {
+    margin: 0;
+    padding-top: 10px;
+ 
+}
+.hebergementscarte1 .card-rating, .hebergementscarte2 .card-rating {
+    margin-bottom: 5px;
+}
+
+.afficherplus {
+    width: 65%;
+    margin-top: 35px;
+    font-weight: bold;
+}
 
 
 /****** Populaires ***********/
@@ -411,7 +438,46 @@ button i {
 }
 
 
+/********** Activités **********/
 
+.activites {
+
+    width: 97%;
+    margin-top: 35px;
+    margin-left: 30px;
+}
+.activites h2 {
+    width: 88.8%;
+    
+}
+
+/****** la width devrait être à environ 93% mais initiative à 100 pour que l'image de droite soit bien alignés à la partie les plus populaires comme sur la maquette ********/
+.sectionactivites {
+    width: 100%;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+.activites a {
+    height: 439px;
+    width: 23%;
+
+}
+.sectionactivites img {
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 20px;
+
+}
+
+.activites h3 {
+    margin-left: 20px;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
