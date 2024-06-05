@@ -315,6 +315,7 @@ button i {
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
+   
 }
 
 .hebergementstitle {
@@ -324,40 +325,39 @@ button i {
     
 }
 
-.hebergementscarte {
-    
+.hebergementscarte1, .hebergementscarte2 {
     display: flex;
-    flex-wrap: wrap;
-    width: 93%;
-    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    gap: 50px;
     
+
 
 }
 
-.hebergementscarte .card {
+
+
+
+.hebergementscarte1 .card, .hebergementscarte2 .card  {
         margin-top: 33px;
+        box-sizing: border-box;
        
         
-        
+  
 }
 
 
-.contenucarte {
 
-
-
-}
-
-.hebergementscarte img {
-    width: 100%;
+.hebergementscarte1 img, .hebergementscarte2 img {
+    object-fit: cover;
     height: 124px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-  
-
-
+    width: 100%;
 
 }
+
 
 
 
