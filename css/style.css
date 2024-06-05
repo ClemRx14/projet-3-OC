@@ -330,13 +330,17 @@ button i {
     flex-direction: row;
     width: 100%;
     justify-content: center;
-    gap: 50px;
+    gap: 40px;
     
 
 
 }
 
+.hebergementscarte1 a, .hebergementscarte2 a {
+    width: 30%;
 
+
+}
 
 
 .hebergementscarte1 .card, .hebergementscarte2 .card  {
