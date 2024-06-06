@@ -527,6 +527,15 @@ flex-direction: column;
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
+
+
+@media screen and (min-width: 1441px) {
+    body {
+        max-width: 1440px;
+    }
+}
+
+
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
     .hebergements-and-populaires {
@@ -618,6 +627,14 @@ flex-direction: column;
     }
  
 
+
+    @media screen and (max-width: 320px) {
+        body {
+            min-width: 320px;
+        }
+    
+    
+    }
 
 
 }
