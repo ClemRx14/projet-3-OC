@@ -16,12 +16,13 @@
 body {
     display: flex;
     justify-content: center;
+    
 }
 
 .main-container {
     width: 100%;
     max-width: 1440px;
-    padding: 0 50px;
+    padding: 0 0px;
     box-sizing: border-box;
 }
 
@@ -84,6 +85,7 @@ a {
     box-sizing: border-box;
     padding-right: 110px;
     border-top: solid transparent;
+    font-weight: 400;
     
 }
 .navactivit {
@@ -92,6 +94,7 @@ a {
     box-sizing: border-box;
     padding-right: 63px;
     border-top: solid transparent;
+    font-weight: 400;
     
     
 }
@@ -618,6 +621,46 @@ flex-direction: column;
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
 
+    /*******Header *********/
+    .hautdepage {
+        width: 100%;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logohautdepage  {
+        width: 20%;
+
+    }
+
+
+    .navhautdepage {
+        width: 100%;
+        display: flex;
+ 
+    }
+
+
+
+    .navheberg, .navactivit {
+        width: 38%;
+        text-align: center;
+        padding-bottom: 20px;
+        
+   
+    }
+
+    .navheberg:hover, .navactivit:hover {
+        border-top: none;
+        border-bottom: solid var(--main-color);
+    }
+
+    
+
+    
+
 
 
     /*******... Test barre de recherche mobile *********/
@@ -625,43 +668,68 @@ flex-direction: column;
         display: none;
         
     }
+    .infoRecherches {
+        width: 100%;
+    }
+    .infoRecherches h2 {
+        width: 89%;
+        display: flex;
+        box-sizing: border-box;
 
+    }
+
+
+    .infoRecherches p {
+        width: 89%;
+    }
+  
     .buttonrecherche i {
         display: block;
-        
+   
+    }
+     .searchbar{        
+     width: 89%;
+    }
+
+    .buttonLoca {
+        width: 14%;
+    }
+    
+    .champderecherche {
+        width: 48%;
+    }
+    .buttonrecherche {
+        width: 18%;
         
     }
 
 
 /*********** Partie Filtres ***********/
+    .partiefiltres {
+        width: 89%;
+    }
     .containerbutton {
         flex-wrap: wrap;
         
-        
-        
-        
-        
+  
+    }
+    .infosurville {
+        width: 100%;
     }
 
 
 
 /********* Hebergement et populaires **********/
 
-
-       /* /=Voir pourquoi le backround n'est pas pris en compte?  */
-
-    .hebergements-and-populaires section {
-        background-color: white;
-    }
-
-
-
     .hebergements-and-populaires {
         flex-direction: column-reverse;
 
     }
-     .populaires section {
-        background-color:#d9d9d9;
+    .hebergements-and-populaires .populaires {
+        background-color:#f2f2f2;
+    }
+    .hebergements-and-populaires .hebergements {
+        background-color: white;
     }
 
  
@@ -687,15 +755,22 @@ flex-direction: column;
     .hebergementscarte1 a, .hebergementscarte2 a {
         width: 90%;
     }
+    .hebergementscarte1 .card-txt, .hebergementscarte2 .card-txt {
+        white-space: wrap;
+    }
+
 
     /******** Activités *******/
-
+    .activites {
+        margin-left: 0;
+    }
     .sectionactivites {
         flex-direction: column;
+        margin-top: 0;
     }
     .sectionactivites a {
         width: 100%;
-        margin-top: 20px;
+        margin-top: 50px;
     }
 
     /****** Footer *******/
