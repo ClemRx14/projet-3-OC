@@ -216,6 +216,7 @@ a {
     display: none;
     align-items: center;
     text-align: center;
+    width: 100%;
     
 }
 
@@ -343,6 +344,10 @@ button i {
 
 
 }
+
+
+
+
 
 /****** Initiative de la width pour éviter le débordement de texte quand on approche le breakpoint ******/
 
@@ -624,8 +629,83 @@ flex-direction: column;
     .buttonrecherche i {
         display: block;
         
+        
     }
+
+
+/*********** Partie Filtres ***********/
+    .containerbutton {
+        flex-wrap: wrap;
+        
+        
+        
+        
+        
+    }
+
+
+
+/********* Hebergement et populaires **********/
+
+
+       /* /=Voir pourquoi le backround n'est pas pris en compte?  */
+
+    .hebergements-and-populaires section {
+        background-color: white;
+    }
+
+
+
+    .hebergements-and-populaires {
+        flex-direction: column-reverse;
+
+    }
+     .populaires section {
+        background-color:#d9d9d9;
+    }
+
  
+    .populaires-cards {
+        flex-direction: column;
+        
+    }
+
+    .populaires-cards a {
+        width: 100%;
+    }
+
+
+    .hebergementscarte1, .hebergementscarte2 {
+        flex-direction: column;
+        
+    }
+
+    .hebergementscarte2 {
+        margin-top: 25px;
+    }
+
+    .hebergementscarte1 a, .hebergementscarte2 a {
+        width: 90%;
+    }
+
+    /******** Activités *******/
+
+    .sectionactivites {
+        flex-direction: column;
+    }
+    .sectionactivites a {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    /****** Footer *******/
+
+    .containerfooter {
+        flex-direction: column;
+        margin-left:  50px;
+    }
+
+  
 
 
     @media screen and (max-width: 320px) {
