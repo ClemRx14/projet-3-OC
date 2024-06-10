@@ -19,6 +19,8 @@ body {
     
 }
 
+/****** Initiative d'enlever le padding pour l'esthetique ******/
+
 .main-container {
     width: 100%;
     max-width: 1440px;
@@ -608,13 +610,7 @@ flex-direction: column;
     margin-left: 0px;
 }
 
-
-
-
-
 }
-
-
 
 
 
@@ -648,6 +644,7 @@ flex-direction: column;
         width: 38%;
         text-align: center;
         padding-bottom: 20px;
+        padding-right: 0;
         
    
     }
@@ -710,12 +707,20 @@ flex-direction: column;
     }
     .containerbutton {
         flex-wrap: wrap;
-        
-  
+    
+    }
+    .containerbutton button {
+        width: 48%;
     }
     .infosurville {
         width: 100%;
     }
+
+    .button1 i {
+        padding-right: 2px;
+       
+    }
+
 
 
 
