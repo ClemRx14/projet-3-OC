@@ -530,11 +530,7 @@ flex-direction: column;
 /****** Media queries ***********/
 
 
-@media screen and (min-width: 1441px) {
-    body {
-        max-width: 1440px;
-    }
-}
+
 
 
 /* Medium devices (tablets, less/equal than 1024px) */
