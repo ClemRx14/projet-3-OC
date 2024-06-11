@@ -687,10 +687,11 @@ flex-direction: column;
       width: 48%;
        }
   
-    .buttonrecherche {
-      width: 18%;
-           
-       }
+       .buttonrecherche {
+        width: 18%;
+             
+         }
+
 
 
 /*********** Partie Filtres ***********/
@@ -743,6 +744,8 @@ flex-direction: column;
     flex-direction: column;
     
 }
+
+
 
 .hebergementscarte2 {
     margin-top: 25px;
