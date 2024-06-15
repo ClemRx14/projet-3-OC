@@ -60,10 +60,17 @@ a {
 
 
 /****** Header ***********/
+body, html{
+    margin: 0;
+    padding: 0;
+}
 
 .hautdepage {
     display: flex;
     width: 100%;
+    padding: 0;
+    margin: 0;
+    
    
 }
 
@@ -71,11 +78,13 @@ a {
     display: flex;
     gap: 80px;
     margin-left: auto;
-    margin-top: 16px;
+    margin-top: 0px;
     font-size: 1rem;
     font-weight: 400;
     width: 23.8%;
     justify-content: flex-end;
+    padding: 0;
+    
     
 }
 .navheberg {
@@ -85,6 +94,7 @@ a {
     padding-right: 110px;
     border-top: solid transparent;
     
+    
 }
 .navactivit {
     width: 18.3%;
@@ -92,6 +102,7 @@ a {
     box-sizing: border-box;
     padding-right: 63px;
     border-top: solid transparent;
+    
     
     
 }
