@@ -395,7 +395,7 @@ button i {
 
 .hebergementscarte1 .card-rating, .hebergementscarte2 .card-rating {
     display: flex;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
     margin-top: 10px;
     
 }
@@ -498,11 +498,14 @@ button i {
    padding-top: 0;
    padding-left: 0;
    padding-right: 0;
+   height: 470px;
+   
 }
 
 
 .activites h3 {
     margin-left: 20px;
+    
 }
 
 
