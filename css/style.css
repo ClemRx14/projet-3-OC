@@ -468,7 +468,7 @@ button i {
 
 /****** la width devrait être à environ 93% mais initiative à 100 pour que l'image de droite soit bien alignés à la partie les plus populaires comme sur la maquette ********/
 .sectionactivites {
-    width: 100%;
+    width: 97%;
     margin-top: 35px;
     display: flex;
     flex-direction: row;
@@ -480,6 +480,7 @@ button i {
 .activites a {
     
     width: 23%;
+    
     
 
 }
@@ -511,7 +512,10 @@ button i {
 
 footer {
     background-color: #f2f2f2;
+    width: 90%;
+    margin: 0 auto;
     margin-top: 35px;
+
 }
 
 .containerfooter {
