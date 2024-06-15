@@ -478,7 +478,7 @@ button i {
 
 
 .activites a {
-    height: auto;
+    
     width: 23%;
     
 
@@ -742,8 +742,14 @@ flex-direction: column;
 
 .hebergements-and-populaires {
     flex-direction: column-reverse;
+    
 
 }
+.hebergements-and-populaires section {
+    border-radius: 0;
+}
+
+
 .hebergements-and-populaires .populaires {
     background-color:#f2f2f2;
 }
@@ -787,14 +793,15 @@ flex-direction: column;
     /******** Activités *******/
 
     .activites {
-        margin-left: 0;
+        margin-left: 25px;
     }
+
     .sectionactivites {
         flex-direction: column;
         margin-top: 0;
     }
     .sectionactivites a {
-        width: 100%;
+        width: 95%;
         margin-top: 50px;
     }
 
