@@ -515,7 +515,7 @@ button i {
 
 footer {
     background-color: #f2f2f2;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     margin-top: 35px;
 
@@ -524,7 +524,13 @@ footer {
 .containerfooter {
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content:space-between;
+    padding: 100px;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 200px;
+
+
 
 }
 
@@ -687,7 +693,7 @@ flex-direction: column;
 
     .infoRecherches {
         width: 100%;
-        margin-left: 25px;
+        margin-left: 10px;
     }
     .infoRecherches h2 {
         width: 89%;
@@ -760,6 +766,10 @@ flex-direction: column;
 
 .hebergements-and-populaires .populaires {
     background-color:#f2f2f2;
+}
+
+.populaires {
+    width: 100%;
 }
 .hebergements-and-populaires .hebergements {
     background-color: white;
