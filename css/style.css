@@ -687,6 +687,7 @@ flex-direction: column;
 
     .infoRecherches {
         width: 100%;
+        margin-left: 25px;
     }
     .infoRecherches h2 {
         width: 89%;
