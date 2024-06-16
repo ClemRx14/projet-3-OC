@@ -61,7 +61,7 @@ a {
 
 /****** Header ***********/
 body, html{
-    margin-top: 0;
+    margin: 0;
     
 }
 
@@ -132,10 +132,14 @@ body, html{
     width: 93%;
     
 }
+.infoRecherches .section-title {
+    padding-left: 10px;
+}
 
 .paragrapheun {
     font-size: 1rem;
     font-weight: 400;
+    padding-left: 10px;
 }
 
 .searchbar{
@@ -239,7 +243,8 @@ body, html{
     display: flex;
     width: 56%;
     gap: 10px;
-    margin-left: 8px;
+    margin-left: 10px;
+    
     
 }
 .partiefiltres p {
@@ -292,10 +297,10 @@ button i {
 
 .infosurville {
     margin-top: 35px;
-    margin-left: 8px;
     display: flex;
     align-items: center;
     margin-bottom: 35px;
+    
     
 
 }
@@ -459,7 +464,7 @@ button i {
 
     width: 97%;
     margin-top: 35px;
-    margin-left: 30px;
+    margin-left: 35px;
 }
 .activites h2 {
     width: 88.8%;
@@ -693,7 +698,7 @@ flex-direction: column;
 
     .infoRecherches {
         width: 100%;
-        margin-left: 10px;
+        margin-left: 0px;
     }
     .infoRecherches h2 {
         width: 89%;
@@ -788,17 +793,50 @@ flex-direction: column;
 
 .hebergementscarte1, .hebergementscarte2 {
     flex-direction: column;
+    gap: 0;
+    
+}
+.hebergementscarte2 {
+    margin-top: 0;
+}
+.hebergementscarte1 .card, .hebergementscarte2 .card {
+    height: 207px;
     
 }
 
 
+.hebergementscarte1 .img, .hebergementscarte2 .img {
+    height: 124px;
+}
+
+.hebergementscarte1 .card-title, .hebergementscarte2 .card-title {
+    margin: 0;
+    padding-left: 10px;
+
+}
+
+.hebergementscarte1 .card-subtitle, .hebergementscarte2 .card-subtitle {
+    margin: 0;
+    padding-top: 5px;
+    padding-left: 10px;
+
+}
+.hebergementscarte1 .card-rating, .hebergementscarte2 .card-rating {
+    margin: 0;
+    padding-top: 12px;
+    padding-left: 10px;
+
+}
+
 
 .hebergementscarte2 {
-    margin-top: 25px;
+    margin-top: 0px;
 }
 
 .hebergementscarte1 a, .hebergementscarte2 a {
     width: 90%;
+    height: 220px;
+   
 }
 .hebergementscarte1 .card-txt, .hebergementscarte2 .card-txt {
     white-space: wrap;
@@ -811,16 +849,28 @@ flex-direction: column;
     /******** Activités *******/
 
     .activites {
-        margin-left: 25px;
+        margin-left: 10px;
+    }
+
+    .activites .section-title {
+        margin-left: 15px;
+    }
+
+    .activites .card {
+        height: 200px;
+    }
+    .activites img {
+        height: 141px;
     }
 
     .sectionactivites {
         flex-direction: column;
         margin-top: 0;
+        margin-left: 10px;
     }
     .sectionactivites a {
         width: 95%;
-        margin-top: 50px;
+        margin-top: 20px;
     }
 
     /****** Footer *******/
